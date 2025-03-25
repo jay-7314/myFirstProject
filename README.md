@@ -5,9 +5,9 @@
 
 2. background image로 제작 및 글자 색상 맞춤
  - 참고 사이트 : https://www.youtube.com/watch?v=oVD-r7_1H6Q //background 이미지 참고
-                https://ko.legacy.reactjs.org/docs/context.html // 하위 props 받기기
+                https://ko.legacy.reactjs.org/docs/context.html // 하위 props 받기
 
-    https://jaysdaily.tistory.com/7 // 해당 블로그 내용용
+    https://jaysdaily.tistory.com/7 // 해당 블로그 내용
 
 
 
