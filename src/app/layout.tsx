@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Jua } from "next/font/google";
+import Background from "./components/BackgroundPage";
 
 const jua = Jua({
   weight: "400",
@@ -18,8 +19,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={jua.className}>{children}</body>
+    <html lang="ko">
+      <body className={`${jua.className}`}>
+        <Background children={children}/>
+        </body>
     </html>
   );
 }

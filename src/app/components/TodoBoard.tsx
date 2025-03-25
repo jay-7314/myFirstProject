@@ -9,7 +9,7 @@ export default function TodoBoard({todolist}: TodoBoardProps){
     return(
         <div>
             TODOLIST
-            {todolist.map((item, index)=><TodoList key = {index}item={item}/>)}
+            {todolist.map((item, index)=><TodoList key = {index} item={item}/>)}
         </div>
     )
 }

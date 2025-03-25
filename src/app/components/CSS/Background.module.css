@@ -1,0 +1,10 @@
+.container{
+    position : relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerImage {
+    z-index: -1;
+    pointer-events: none;
+}
