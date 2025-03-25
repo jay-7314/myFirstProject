@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary : #40E0d0;
+}
+
+
+
+html, body {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
