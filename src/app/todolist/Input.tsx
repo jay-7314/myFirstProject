@@ -21,7 +21,7 @@ export default function Input() {
         <div className="flex items-center justify-center flex-col">
             <div className="flex">
                 <input
-                    onKeyPress={(e) => {
+                    onKeyDown={(e) => {
                         if (e.key === "Enter") {
                             addlist();
                         }

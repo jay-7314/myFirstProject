@@ -17,14 +17,17 @@
 
 ## 3. 주요 기능 개발 과정(계속 변경될 예정)
 
-### 1) Todolist 기능 구현 - https://jaysdaily.tistory.com/6
+### 1) Todolist 기능 구현 
+- https://jaysdaily.tistory.com/6
 
-### 2) background image로 제작 및 글자 색상 맞춤 - https://jaysdaily.tistory.com/7
+### 2) background image로 제작 및 글자 색상 맞춤 
+- https://jaysdaily.tistory.com/7
 - 참고 사이트 : 
   - [background 이미지 참고](https://www.youtube.com/watch?v=oVD-r7_1H6Q)
   - [하위 props 받기](https://ko.legacy.reactjs.org/docs/context.html)
 
-### 3)  footer로 컴포넌트 navigate형태 생성 및 header에 현재 경로 표기 - https://jaysdaily.tistory.com/8
+### 3)  footer로 컴포넌트 navigate형태 생성 및 header에 현재 경로 표기 
+- https://jaysdaily.tistory.com/8
 - 참고 사이트 : 
   - [현재 경로 header에 넣기 위한 방법](https://www.daleseo.com/react-use-location/)
   - [엔터로 입력하는 방법](https://8dreams.tistory.com/91)
