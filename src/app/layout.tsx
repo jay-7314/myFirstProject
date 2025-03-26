@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Jua } from "next/font/google";
-import Background from "./components/BackgroundPage";
+import Background from "./components/background/BackgroundPage";
 
 const jua = Jua({
   weight: "400",
