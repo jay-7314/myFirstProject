@@ -1,7 +1,20 @@
+"use client"
+
+import { useTheme } from "../components/background/BackgroundPage";
+
 export default function Setting(){
+    const {mode, changeMode} = useTheme();
     return(
-        <div>
-            이 페이지에서 추후 사용자 맞춤 폰트, 픈트색상, 배경 변경 등을 설정할 수 있고, 모드 변경에도 여기에 둘 예정입니다.
+        <div className="flex flex-col items-center justify-center h-screen">
+               <div>
+                <button 
+                type="button"
+                onClick={changeMode}
+                className={`text-base ${mode === "light" ? "text-black" : "text-white"}`}>
+                    {mode === "light" ? "모드변경 : 🌛" : "모드변경 : 🌞"}
+                    
+                </button>
+            </div>
         </div>
     )
 }

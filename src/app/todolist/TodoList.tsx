@@ -7,7 +7,7 @@ interface TodolistProps{
 export default function TodoList({item}: TodolistProps){
     const {mode} = useTheme();
     return(
-        <div className = {`border-2 flex p-3 max-w-sm min-w-40ch m-2
+        <div className = {`md:truncate break-words border-2 flex p-3 max-w-xs min-w-40ch m-2
         ${mode === "light" ? "text-black border-black" : "text-white border-white"}`}>
             {item}
         </div>

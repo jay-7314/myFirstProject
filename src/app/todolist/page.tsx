@@ -1,9 +1,9 @@
-import Input from "./Input";
+import InputTodo from "./InputTodo";
 
 export default function Todolist(){
     return(
         <div>
-            <Input/>
+            <InputTodo/>
         </div>
     )
 }
