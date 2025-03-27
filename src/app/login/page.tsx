@@ -5,9 +5,12 @@ import Input from "../components/function/Input";
 import { useTheme } from "../components/background/BackgroundPage";
 import Link from "next/link";
 import Image from "next/image";
+import { signIn, useSession } from "next-auth/react";
 
 export default function Login() {
     const { mode } = useTheme();
+    const session = useSession();
+    console.log(session);
     return (
         <div className="flex flex-col items-center justify-center h-full">
             <div className={`text-2xl font-bold pb-6 ${mode === "light" ? "text-black" : "text-white"}`}>
@@ -31,9 +34,9 @@ export default function Login() {
                 다른 방법으로 로그인
             </div>
             <div className = "flex flex-col items-center justify-center gap-2">
-                <Image src="/google_oauth.png" alt="google-oauth" width={200} height={200} />
-                <Image src="/kakao_oauth.png" alt="kakao-oauth" width={200} height={200} />
-                <Image src="/naver_oauth.png" alt="naver-oauth" width={200} height={200} />
+                <button onClick={() => signIn("google")}>{<Image src="/google_oauth.png" alt="google-oauth" width={200} height={200} />}</button>
+                <button onClick={() => signIn("naver")}>{<Image src="/naver_oauth.png" alt="naver-oauth" width={200} height={200} />}</button>
+                <button onClick={() => signIn("kakao")}>{<Image src="/kakao_oauth.png" alt="kakao-oauth" width={200} height={200} />}</button>
             </div>
         </div>
     )

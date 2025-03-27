@@ -14,6 +14,7 @@
 - Next.js
 - TypeScript
 - TailwindCSS
+- next-auth
 
 ## 3. 주요 기능 개발 과정(계속 변경될 예정)
 
@@ -32,7 +33,14 @@
   - [현재 경로 header에 넣기 위한 방법](https://www.daleseo.com/react-use-location/)
   - [엔터로 입력하는 방법](https://8dreams.tistory.com/91)
 
-
+### 4) 로그인/로그아웃 페이지 제작
+- oauth를 이용한 로그인 개발
+- 참고 사이트 : 
+ - [oauth 이미지](https://butsteadily.tistory.com/16)
+ - [oauth 코드 작성](https://wonillism.tistory.com/320)
+ - [oauth 추가 기능](https://jeongyunlog.netlify.app/develop/nextjs/next-auth/)
+ - [환경변수 openssl 받기](https://kka3seb.tistory.com/958)
+ - [카카오 api 주소 받기](https://velog.io/@ggingmin/Next.js-14%EC%99%80-NextAuth%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%98%EC%97%AC-%EC%B9%B4%EC%B9%B4%EC%98%A4-OAuth-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
  
 
 

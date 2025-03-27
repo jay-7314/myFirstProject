@@ -43,7 +43,7 @@ export default function Background({ children }: BackgroundProps) {
                 className={styles.containerImage}
             />
 
-            <Header changeMode={changeMode} />
+            <Header />
 
             <div className="relative mt-20 overflow-y-auto h-[calc(100vh-8rem)]">
                {children}

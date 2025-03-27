@@ -18,6 +18,7 @@ export default function signup() {
                 비밀번호 <Input placeholder="비밀번호" className="px-2" type="password" />
                 비밀번호 확인 <Input placeholder="비밀번호 확인" className="px-2" type="password" />
                 이메일 <Input placeholder="이메일" className="px-2" type="email" />
+                이름 <Input placeholder="이름" className="px-2" type="text" />
             </div>
             <Button onClick={returnPage}>회원가입</Button>
         </div>
